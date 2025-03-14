@@ -13,8 +13,6 @@ Techstars
 Google PhD Fellowship
 IBM PhD Fellowship
 NVIDIA Graduate Fellowship
-
-
 MongoDB PhD Fellowship
 NSF Graduate Research Fellowship (GRFP)
 MIT-Accenture Fellowships

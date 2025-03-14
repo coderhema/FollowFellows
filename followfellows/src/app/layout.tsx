@@ -8,8 +8,11 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const myFont = localFont({
-  src: './my-font.woff2',
+const overusedGrotesk = localFont({
+  src: '/fonts/overused-grotesk/overused-grotesk.woff2',
+  variable: '--font-overused-grotesk',
+  weight: '400',
+  style: 'normal',
   display: 'swap',
 })
 
@@ -31,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${overusedGrotesk.variable} antialiased`}
       >
         {children}
       </body>
