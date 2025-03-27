@@ -15,15 +15,15 @@ export default function Home() {
           description: "Supports exceptional PhD students in computer science and engineering",
           joinedDate: "2023"
         },
-      ]}
-      rightCategories = {[
         {
-          name: "NSF Graduate Research Fellowship (GRFP)", 
+          name: "NSF Graduate Research Fellowship", 
           link: "#",
           avatarUrl: "https://www.nsf.gov/images/logos/NSF_4-Color_bitmap_Logo.png",
           description: "Recognizes and supports outstanding graduate students in NSF-supported STEM disciplines",
           joinedDate: "2022"
         },
+      ]}
+      rightCategories = {[
       ]}
       />
 
@@ -31,14 +31,12 @@ export default function Home() {
       title = "Science Fellowships"
       categories = {[
         {
-          name: "EERE Science and Technology Policy Fellowships", 
+          name: "MIT-Accenture", 
           link: "#",
           avatarUrl: "https://www.energy.gov/sites/default/files/styles/full_article_width/public/2021-03/DOE_logo_0.png",
           description: "Provides opportunities for scientists and engineers to contribute to energy policy",
           joinedDate: "2021"
         },
-      ]}
-      rightCategories = {[
         {
           name: "Climatebase Fellowship", 
           link: "#",
@@ -46,6 +44,8 @@ export default function Home() {
           description: "Helps professionals transition into climate tech careers",
           joinedDate: "2023"
         },
+      ]}
+      rightCategories = {[
       ]}
       />
           </div>
@@ -61,8 +61,6 @@ export default function Home() {
           description: "Supports PhD students doing GPU-based research",
           joinedDate: "2023"
         },
-      ]}
-      rightCategories = {[
         {
           name: "MongoDB PhD Fellowship", 
           link: "#",
@@ -71,15 +69,17 @@ export default function Home() {
           joinedDate: "2022"
         },
       ]}
+      rightCategories = {[
+      ]}
       />
 
 <CategorySection
       title = "Country Fellowships"
       categories = {[
         {name: "America On Tech Fellowships", link: "#"},
+        {name: "India Smart Cities Fellowship", link: "#"},
       ]}
       rightCategories = {[
-        {name: "India Smart Cities Fellowship", link: "#"},
       ]}
       />
       </div>
@@ -132,12 +132,12 @@ export default function Home() {
       title = "Country Fellowships"
       categories = {[
         {name: "America On Tech Fellowships", link: "#"},
-      ]}
-      rightCategories = {[
         {name: "India Smart Cities Fellowship", link: "#"},
       ]}
+      rightCategories = {[
+      ]}
       />
-          </div>
+          </div> 
           </div>
   );
 }

@@ -20,7 +20,7 @@ export function CategorySection({ title, categories, rightCategories }: Category
             <div key={index}>
               <HoverCard>
                 <HoverCardTrigger asChild>
-                  <Button variant="link" className="text-sm text-gray-700 p-0 h-auto">
+                  <Button variant="link" className="text-sm cursor-pointer text-gray-700 p-0 h-auto">
                     {category.name}
                   </Button>
                 </HoverCardTrigger>
@@ -56,7 +56,7 @@ export function CategorySection({ title, categories, rightCategories }: Category
               <div key={index}>
                 <HoverCard>
                   <HoverCardTrigger asChild>
-                    <Button variant="link" className="text-sm text-gray-700 p-0 h-auto">
+                    <Button variant="link" className="text-sm cursor-pointer text-gray-700 p-0 h-auto">
                       {category.name}
                     </Button>
                   </HoverCardTrigger>
