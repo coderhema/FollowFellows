@@ -1,7 +1,38 @@
 import { CategorySection } from "@/components/categories-section";
+import { NavigationMenu } from "@/components/ui/navigation-menu";
+import {
+  NavigationMenuLink,
+  NavigationMenuItem,
+  NavigationMenuList,
+} from "@/components/ui/navigation-menu";
+import {SearchBox} from "@/components/ui/search";
+import Link from "next/link";
 
 export default function Home() {
   return (
+    <div className="">
+      {/* Navigation Bar */}
+      <nav className="bg-gray-100 p-4">
+        <div className="container mx-auto flex justify-between items-center">
+          <Link href="/" className="text-2xl font-bold">
+            FollowFellows
+          </Link>
+          <SearchBox placeholder="Search Fellowships" />
+          <NavigationMenu>
+            <NavigationMenuList>
+              <NavigationMenuItem className="bg-blue-700 text-white font-medium font-sans rounded-sm">
+                <Link href="/contact" legacyBehavior passHref>
+                  <NavigationMenuLink>
+                    Create a posting
+                  </NavigationMenuLink>
+                </Link>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
+        </div>
+      </nav>
+
+    {/* Main content*/}
     <div className="grid grid-cols-1 md:grid-cols-4">
       <div className="p-8 font-sans col-span-1">
         <CategorySection
@@ -151,6 +182,7 @@ export default function Home() {
             }
           ]}
         />
+      </div>
       </div>
     </div>
   );
