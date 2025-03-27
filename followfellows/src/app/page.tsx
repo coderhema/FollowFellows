@@ -1,143 +1,157 @@
 import { CategorySection } from "@/components/categories-section";
 
-
 export default function Home() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-4">
-    <div className="p-8 font-sans col-span-1">
-      <CategorySection
-      title = "PHD Fellowships"
-      categories = {[
-        {
-          name: "IBM PhD Fellowship", 
-          link: "#",
-          avatarUrl: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
-          description: "Supports exceptional PhD students in computer science and engineering",
-          joinedDate: "2023"
-        },
-        {
-          name: "NSF Graduate Research Fellowship", 
-          link: "#",
-          avatarUrl: "https://www.nsf.gov/images/logos/NSF_4-Color_bitmap_Logo.png",
-          description: "Recognizes and supports outstanding graduate students in NSF-supported STEM disciplines",
-          joinedDate: "2022"
-        },
-      ]}
-      rightCategories = {[
-      ]}
-      />
+      <div className="p-8 font-sans col-span-1">
+        <CategorySection
+          title="Startup Fellowships"
+          categories={[
+            {
+              name: "Y Combinator",
+              link: "#",
+              description: "World's leading startup accelerator program",
+              joinedDate: "2023"
+            },
+            {
+              name: "Z Fellows",
+              link: "#",
+              description: "Fellowship program for student founders",
+              joinedDate: "2023"
+            },
+            {
+              name: "Nautilus",
+              link: "#",
+              description: "Supporting deep tech founders",
+              joinedDate: "2023"
+            }
+          ]}
+        />
 
-<CategorySection
-      title = "Science Fellowships"
-      categories = {[
-        {
-          name: "MIT-Accenture", 
-          link: "#",
-          avatarUrl: "https://www.energy.gov/sites/default/files/styles/full_article_width/public/2021-03/DOE_logo_0.png",
-          description: "Provides opportunities for scientists and engineers to contribute to energy policy",
-          joinedDate: "2021"
-        },
-        {
-          name: "Climatebase Fellowship", 
-          link: "#",
-          avatarUrl: "https://climatebase.org/images/logo.svg",
-          description: "Helps professionals transition into climate tech careers",
-          joinedDate: "2023"
-        },
-      ]}
-      rightCategories = {[
-      ]}
-      />
-          </div>
-
-    <div className="p-8 font-sans col-span-1">
-      <CategorySection
-      title = "FAANG Fellowships"
-      categories = {[
-        {
-          name: "NVIDIA Graduate Fellowship", 
-          link: "#",
-          avatarUrl: "https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg",
-          description: "Supports PhD students doing GPU-based research",
-          joinedDate: "2023"
-        },
-        {
-          name: "MongoDB PhD Fellowship", 
-          link: "#",
-          avatarUrl: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
-          description: "Supports PhD students working on database research",
-          joinedDate: "2022"
-        },
-      ]}
-      rightCategories = {[
-      ]}
-      />
-
-<CategorySection
-      title = "Country Fellowships"
-      categories = {[
-        {name: "America On Tech Fellowships", link: "#"},
-        {name: "India Smart Cities Fellowship", link: "#"},
-      ]}
-      rightCategories = {[
-      ]}
-      />
+        <CategorySection
+          title="Government Fellowships"
+          categories={[
+            {
+              name: "US Digital Corps",
+              link: "https://digitalcorps.gsa.gov/",
+              description: "Early-career fellowship in federal technology",
+              joinedDate: "2023"
+            },
+            {
+              name: "TechCongress Fellowship",
+              link: "https://techcongress.io/",
+              description: "Bringing tech expertise to Congress",
+              joinedDate: "2023"
+            },
+            {
+              name: "Presidential Innovation Fellows",
+              link: "https://presidentialinnovationfellows.gov",
+              description: "Modernizing federal government",
+              joinedDate: "2023"
+            }
+          ]}
+        />
       </div>
 
       <div className="p-8 font-sans col-span-1">
-      <CategorySection
-      title = "Residency Fellowships"
-      categories = {[
-        {
-          name: "The Residency", 
-          link: "#",
-          avatarUrl: "https://theresidency.io/static/media/logo.1e8a8e2b.svg",
-          description: "Supports early-stage founders building the future of work",
-          joinedDate: "2023"
-        },
-        {
-          name: "FdotInc", 
-          link: "#",
-          avatarUrl: "https://fdotinc.com/wp-content/uploads/2021/12/FdotInc-Logo.png",
-          description: "Accelerates startups focused on digital transformation",
-          joinedDate: "2022"
-        },
-        {
-          name: "Techstars", 
-          link: "#",
-          avatarUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Techstars_logo.png",
-          description: "Global network that helps entrepreneurs succeed",
-          joinedDate: "2021"
-        },
-      ]}
-      rightCategories = {[
-        {
-          name: "Athena", 
-          link: "#",
-          avatarUrl: "https://www.athena.vc/images/logo.svg",
-          description: "Supports female founders building scalable businesses",
-          joinedDate: "2023"
-        },
-        {
-          name: "Antler", 
-          link: "#",
-          avatarUrl: "https://www.antler.co/dist/images/antler-logo.svg",
-          description: "Helps exceptional people build impactful companies",
-          joinedDate: "2022"
-        },
-      ]}
-      />
+        <CategorySection
+          title="PhD & Research Fellowships"
+          categories={[
+            {
+              name: "Google PhD Fellowship",
+              link: "#",
+              description: "Supporting innovative PhD students",
+              joinedDate: "2023"
+            },
+            {
+              name: "IBM PhD Fellowship",
+              link: "#",
+              avatarUrl: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+              description: "Supporting exceptional PhD students",
+              joinedDate: "2023"
+            },
+            {
+              name: "Adobe Research Fellowship",
+              link: "#",
+              description: "Research in computer science and engineering",
+              joinedDate: "2023"
+            }
+          ]}
+        />
 
-<CategorySection
-      title = "Country Fellowships"
-      categories = {[
-        {name: "America On Tech Fellowships", link: "#"},
-        {name: "India Smart Cities Fellowship", link: "#"},
-      ]}
-      rightCategories = {[
-      ]}
-      />
-          </div> 
-          </div>
+        <CategorySection
+          title="Tech Industry Fellowships"
+          categories={[
+            {
+              name: "KPCB Fellowship",
+              link: "#",
+              description: "Engineering & Design Fellowship",
+              joinedDate: "2023"
+            },
+            {
+              name: "Code2040 Fellows",
+              link: "#",
+              description: "Career accelerator for Black and Latinx technologists",
+              joinedDate: "2023"
+            }
+          ]}
+        />
+      </div>
+
+      <div className="p-8 font-sans col-span-1">
+        <CategorySection
+          title="Accelerator Programs"
+          categories={[
+            {
+              name: "Techstars",
+              link: "#",
+              avatarUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Techstars_logo.png",
+              description: "Global network that helps entrepreneurs succeed",
+              joinedDate: "2023"
+            },
+            {
+              name: "Antler",
+              link: "#",
+              avatarUrl: "https://www.antler.co/dist/images/antler-logo.svg",
+              description: "Helps exceptional people build impactful companies",
+              joinedDate: "2023"
+            },
+            {
+              name: "Flagship Pioneering",
+              link: "#",
+              description: "Fellowship for biotech innovation",
+              joinedDate: "2023"
+            }
+          ]}
+        />
+      </div>
+
+      <div className="p-8 font-sans col-span-1">
+        <CategorySection
+          title="Specialized Fellowships"
+          categories={[
+            {
+              name: "Climatebase Fellowship",
+              link: "#",
+              avatarUrl: "https://climatebase.org/images/logo.svg",
+              description: "Helps professionals transition into climate tech",
+              joinedDate: "2023"
+            },
+            {
+              name: "Cornell Tech Venture Fellows",
+              link: "https://www.tech.cornell.edu/",
+              description: "Fellowship for tech entrepreneurs",
+              joinedDate: "2023"
+            },
+            {
+              name: "Paragon Fellowship",
+              link: "#",
+              description: "Supporting innovative tech leaders",
+              joinedDate: "2023"
+            }
+          ]}
+        />
+      </div>
+    </div>
   );
 }

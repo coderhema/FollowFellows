@@ -17,7 +17,8 @@ NVIDIA Graduate Fellowship
 MongoDB PhD Fellowship
 NSF Graduate Research Fellowship (GRFP)
 MIT-Accenture Fellowships
-Code2040 Fellows Program
+Code2040 Fel
+lows Program
 Coding it Forward Fellowship
 America On Tech Fellowships
 Climatebase Fellowship
